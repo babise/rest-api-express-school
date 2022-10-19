@@ -114,7 +114,7 @@ app.put("/labels/:id", (req,res) => {
 app.delete("/labels/:id", (req, res) => {
     const labelId = +req.params.id;
 
-    console.log("Suppression de l'labele avec l'Id : ", labelId);
+    console.log("Suppression de label avec l'Id : ", labelId);
 
     const filteredList = labels.filter(label => label.id !==  labelId);
 
@@ -172,7 +172,7 @@ app.put("/categories/:id", (req,res) => {
 app.delete("/categories/:id", (req, res) => {
     const categoryId = +req.params.id;
 
-    console.log("Suppression de l'categorye avec l'Id : ", categoryId);
+    console.log("Suppression de la category avec l'Id : ", categoryId);
 
     const filteredList = categories.filter(category => category.id !==  categoryId);
 

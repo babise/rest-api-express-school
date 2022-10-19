@@ -2,18 +2,19 @@
     {
         "id": 1,
         "name": "SO la lune",
-        "category": {
-            "id": 1,
-            "title": "Rap",
-            "description": "Si si"
-        },
         "description": "blablabla",
         "_links": {
-            "label": [
+            "label": 
               {
                 "href": "localhost:3000/labels/1"
               }
-            ]
+        ,
+        "self": 
+            
+              {
+                "href": "localhost:3000/artists/1"
+              }
+            
         }
     },
     {
@@ -26,12 +27,17 @@
         },
         "description": "blablabla",
         "_links": {
-            "label": [
+            "label": 
               {
                 "href": "localhost:3000/labels/2"
+              },
+              "self": 
+                  
+                    {
+                      "href": "localhost:3000/artists/2"
+                    }
+                  
               }
-            ]
-        }
     },
     {
         "id": 3,
@@ -43,12 +49,17 @@
         },
         "description": "blablabla",
         "_links": {
-            "label": [
+            "label": 
               {
-                "href": "localhost:3000/labels/3"
+                "href": "localhost:3000/labels/2"
+              },
+              "self": 
+                  
+                    {
+                      "href": "localhost:3000/artists/3"
+                    }
+                  
               }
-            ]
-        }
     },
     {
         "id": 4,
@@ -60,12 +71,17 @@
         },
         "description": "blablabla",
         "_links": {
-            "label": [
+            "label": 
               {
-                "href": "localhost:3000/labels/4"
+                "href": "localhost:3000/labels/2"
+              },
+              "self": 
+                  
+                    {
+                      "href": "localhost:3000/artists/4"
+                    }
+                  
               }
-            ]
-        }
     },
     {
         "id": 5,
@@ -77,12 +93,17 @@
         },
         "description": "blablabla",
         "_links": {
-            "label": [
+            "label": 
               {
-                "href": "localhost:3000/labels/5"
+                "href": "localhost:3000/labels/2"
+              },
+              "self": 
+                  
+                    {
+                      "href": "localhost:3000/artists/5"
+                    }
+                  
               }
-            ]
-        }
     },
     {
         "id": 6,
@@ -94,11 +115,15 @@
         },
         "description": "blablabla",
         "_links": {
-            "label": [
+            "label": 
               {
                 "href": "localhost:3000/labels/6"
-              }
-            ]
+              },
+              "self": 
+                  
+                    {
+                      "href": "localhost:3000/artists/5"
+                    }
         }
     },
     {
@@ -111,11 +136,15 @@
         },
         "description": "blablabla",
         "_links": {
-            "label": [
+            "label": 
               {
                 "href": "localhost:3000/labels/7"
+              },
+              "self": 
+                  
+              {
+              "href": "localhost:3000/artists/5"
               }
-            ]
         }
     }
 ]
