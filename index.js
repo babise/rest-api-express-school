@@ -34,6 +34,8 @@ app.put("/artists/:id", (req,res) => {
     const artist = req.body;
     console.log("Editing item: ", artistId, " to be ", artist);
 
+    
+
     const updatedListArtists = [];
 
     artists.forEach(oldArtist => {
