@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Rap",
+        "description": "Si si"
+    },
+    {
+        "id": 2,
+        "title": "Rock",
+        "description": "Vieux temps"
+    },
+    {
+        "id": 3,
+        "title": "Mauvais",
+        "description": "Juste mauvais"
+    }
+]

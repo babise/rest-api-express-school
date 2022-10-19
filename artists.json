@@ -2,43 +2,120 @@
     {
         "id": 1,
         "name": "SO la lune",
-        "type": "Rap",
-        "description": "blablabla"
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Si si"
+        },
+        "description": "blablabla",
+        "_links": {
+            "label": [
+              {
+                "href": "localhost:3000/labels/1"
+              }
+            ]
+        }
     },
     {
         "id": 2,
         "name": "Dinos",
-        "type": "Rap",
-        "description": "blablabla"
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Si si"
+        },
+        "description": "blablabla",
+        "_links": {
+            "label": [
+              {
+                "href": "localhost:3000/labels/2"
+              }
+            ]
+        }
     },
     {
         "id": 3,
         "name": "Josman",
-        "type": "Rap",
-        "description": "blablabla"
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Si si"
+        },
+        "description": "blablabla",
+        "_links": {
+            "label": [
+              {
+                "href": "localhost:3000/labels/3"
+              }
+            ]
+        }
     },
     {
         "id": 4,
         "name": "Supertramp",
-        "type": "Rock",
-        "description": "blablabla"
+        "category": {
+            "id": 2,
+            "title": "Rock",
+            "description": "Vieux temps"
+        },
+        "description": "blablabla",
+        "_links": {
+            "label": [
+              {
+                "href": "localhost:3000/labels/4"
+              }
+            ]
+        }
     },
     {
         "id": 5,
         "name": "BB Jacques",
-        "type": "Rap",
-        "description": "blablabla"
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Si si"
+        },
+        "description": "blablabla",
+        "_links": {
+            "label": [
+              {
+                "href": "localhost:3000/labels/5"
+              }
+            ]
+        }
     },
     {
         "id": 6,
         "name": "La Fève",
-        "type": "Rap",
-        "description": "blablabla"
+        "category": {
+            "id": 1,
+            "title": "Rap",
+            "description": "Si si"
+        },
+        "description": "blablabla",
+        "_links": {
+            "label": [
+              {
+                "href": "localhost:3000/labels/6"
+              }
+            ]
+        }
     },
     {
         "id": 7,
         "name": "Roi Hennok",
-        "type": "Mauvais",
-        "description": "blablabla"
+        "category": {
+            "id": 3,
+            "title": "Mauvais",
+            "description": "Juste mauvais"
+        },
+        "description": "blablabla",
+        "_links": {
+            "label": [
+              {
+                "href": "localhost:3000/labels/7"
+              }
+            ]
+        }
     }
 ]
