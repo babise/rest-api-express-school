@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "SO la lune",
+        "type": "Rap",
+        "description": "blablabla"
+    },
+    {
+        "id": 2,
+        "name": "Dinos",
+        "type": "Rap",
+        "description": "blablabla"
+    },
+    {
+        "id": 3,
+        "name": "Josman",
+        "type": "Rap",
+        "description": "blablabla"
+    },
+    {
+        "id": 4,
+        "name": "Supertramp",
+        "type": "Rock",
+        "description": "blablabla"
+    },
+    {
+        "id": 5,
+        "name": "BB Jacques",
+        "type": "Rap",
+        "description": "blablabla"
+    },
+    {
+        "id": 6,
+        "name": "La Fève",
+        "type": "Rap",
+        "description": "blablabla"
+    },
+    {
+        "id": 7,
+        "name": "Roi Hennok",
+        "type": "Mauvais",
+        "description": "blablabla"
+    }
+]
